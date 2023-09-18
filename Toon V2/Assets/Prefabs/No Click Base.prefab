@@ -76,13 +76,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba51bf3d97830484db7f89940f7ec0e1,
         type: 3}
       propertyPath: m_Name
-      value: Pie_base Variant 1
+      value: No Click Base
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ba51bf3d97830484db7f89940f7ec0e1,
         type: 3}
       propertyPath: m_TagString
       value: Ingredient
       objectReference: {fileID: 0}
+    - target: {fileID: 4976929357699327789, guid: ba51bf3d97830484db7f89940f7ec0e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c2f6489c1f235c84e909a217cd12579a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -132,6 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481f2ccf210ec9d4c8a0164932000dd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lockY: 1
 --- !u!135 &3684345998057495977
 SphereCollider:
   m_ObjectHideFlags: 0

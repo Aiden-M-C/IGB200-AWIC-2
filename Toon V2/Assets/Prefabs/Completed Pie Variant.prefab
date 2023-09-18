@@ -73,16 +73,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8503742388017066729, guid: dae6784a2b667ea45be675bb91705cc0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c3b8032a7d2b7344ab15698495afdb96, type: 2}
+    - target: {fileID: -6910565692481186693, guid: dae6784a2b667ea45be675bb91705cc0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c0298ff09666b7640b6bb9d78a64cd68, type: 2}
     - target: {fileID: 919132149155446097, guid: dae6784a2b667ea45be675bb91705cc0,
         type: 3}
       propertyPath: m_Name
       value: Completed Pie Variant
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 919132149155446097, guid: dae6784a2b667ea45be675bb91705cc0,
         type: 3}
       propertyPath: m_TagString
       value: Pie
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 4976929357699327789, guid: dae6784a2b667ea45be675bb91705cc0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c2f6489c1f235c84e909a217cd12579a, type: 2}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
